@@ -1,0 +1,325 @@
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+body {
+  background-color: hsl(206, 94%, 87%);
+}
+
+.active {
+  display: block !important;
+}
+.side-bar-container {
+  background: url(./assets/images/bg-sidebar-desktop.svg) no-repeat 0 75%;
+  display: flex;
+  flex-direction: column;
+  /* justify-content: flex-start; */
+  text-align: center;
+  padding: 10px;
+  border-radius: 14px !important;
+  width: 215px;
+}
+.side-bar-child {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  padding: 10px;
+  height: 10%;
+  margin-bottom: 5px;
+}
+.step-content {
+  padding: 10px;
+}
+.number {
+  background-color: transparent;
+  border: 1px solid white;
+  border-radius: 20px;
+  padding: 5px;
+  width: 20px;
+  height: 20px;
+  text-align: center;
+  margin-right: 8px;
+  margin-top: 5px;
+  color: white;
+}
+.number:hover {
+  cursor: pointer;
+  background-color: hsl(206, 94%, 87%);
+  color: black;
+}
+.content {
+  color: white;
+  font-weight: bold;
+  text-transform: uppercase;
+  font-size: 11px;
+}
+.step {
+  color: gray;
+}
+.big-container {
+  display: flex;
+  justify-content: center;
+  background-color: ghostwhite;
+  width: 60%;
+  height: 500px;
+  margin: 20px auto;
+  padding: 20px;
+  border-radius: 8px;
+}
+.form-div {
+  margin-left: 30px;
+  align-self: baseline;
+  display: none;
+}
+.form-div p,
+.select-first-p,
+.add-first-p {
+  color: hsl(231, 11%, 63%);
+  margin-top: -15px;
+}
+.form-div span {
+  color: hsl(213, 96%, 18%);
+}
+form {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between !important;
+}
+input {
+  margin: 6px 0 6px;
+  padding: 12px;
+  border: 1.3px solid hsl(229, 24%, 87%);
+  border-radius: 4.5px;
+}
+input[type="email"]:focus,
+input[type="text"]:focus {
+  /* background-color: rebeccapurple; */
+  outline: 1.3px solid hsl(243, 100%, 62%);
+  border: none;
+}
+button {
+  margin-top: 5px;
+  width: 90px;
+  padding: 10px;
+  color: white;
+  background-color: hsl(213, 96%, 18%);
+  border: none;
+  border-radius: 5px;
+  align-self: flex-end;
+}
+
+/* Step 2 */
+.select-div {
+  margin-left: 80px;
+  padding: 3px;
+  width: 400px;
+  display: none;
+}
+
+.card-holder {
+  display: flex;
+  justify-content: space-between;
+  width: 400px;
+  margin-top: 30px;
+}
+.holder2 {
+  display: none;
+}
+.go-back {
+  color: hsl(231, 11%, 63%);
+}
+.go-back:hover {
+  cursor: pointer;
+  font-weight: bold;
+  color: hsl(244, 61%, 16%);
+}
+
+.card {
+  background-color: hsl(229, 24%, 87%);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  width: 115px;
+  height: 140px !important;
+  padding-left: 8px;
+  border-radius: 6px;
+}
+.card:hover {
+  cursor: pointer;
+}
+.card img {
+  width: 30%;
+}
+.fa-solid:hover {
+  cursor: pointer;
+}
+#on {
+  display: none;
+}
+.amt-span {
+  margin-top: 20px !important;
+  margin-bottom: 20px !important;
+}
+.plan {
+  padding: 5px;
+}
+.plan p {
+  margin-bottom: -0.25px;
+  color: hsl(213, 96%, 18%);
+  font-weight: bold;
+}
+.plan span {
+  color: hsl(231, 11%, 63%);
+}
+.free {
+  color: hsl(213, 96%, 18%) !important ;
+}
+.icon-div {
+  background-color: hsl(206, 94%, 87%);
+  width: 96.5%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 8px;
+  justify-self: center;
+  margin: 18px auto;
+  border-radius: 4px;
+}
+i {
+  margin: 0 4px;
+}
+.month {
+  font-weight: bold;
+  color: hsl(213, 96%, 18%);
+}
+.year {
+  color: hsl(231, 11%, 63%);
+}
+.button-go-back {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.button-go-back button {
+  margin-left: 120px;
+  margin-top: 92px;
+}
+.button-go-back span {
+  margin-right: 120px;
+  margin-top: 100px;
+}
+
+/* step 3 */
+.add-ons-div {
+  margin-left: 80px;
+  padding: 3px;
+  width: 400px;
+  display: none;
+}
+.checkbox-div {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: hsl(205, 74%, 92%);
+  margin-bottom: 10px;
+  border-radius: 7px;
+  max-width: 100%;
+}
+.checkbox-div:hover {
+  cursor: pointer;
+}
+.check-border {
+  border: 1px solid hsl(243, 100%, 62%);
+}
+.mid-div {
+  justify-self: center !important;
+}
+.mid-div h5 {
+  color: hsl(213, 96%, 18%);
+  font-weight: bold;
+}
+.mid-div p {
+  text-align: justify;
+  margin-top: -15px !important;
+  color: hsl(231, 11%, 63%);
+}
+.diff {
+  margin-left: -22px !important;
+}
+.add-ons-btn:hover {
+  cursor: pointer;
+}
+.add-ons-go-back:hover{
+  cursor: pointer;
+  font-weight: bold;
+  color: hsl(245, 71%, 21%);
+}
+
+.check-box-2{
+  display: none;
+}
+
+/* step 4 */
+.summary {
+  display: flex;
+  flex-direction: column;
+  margin-left: 80px;
+  display: none;
+  width: 400px;
+}
+.subscription {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.calc {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.diff-button {
+  background-color: hsl(243, 100%, 62%);
+}
+.subscription p {
+  margin-top: -14px;
+  color: hsl(231, 11%, 63%);
+  transition: all 2s ease-in-out;
+}
+.subscription p:hover {
+  color: hsl(243, 100%, 62%);
+  text-decoration: underline;
+  cursor: pointer;
+}
+.subscription h5,
+.subscription span {
+  font-weight: bold;
+  color: hsl(213, 96%, 18%);
+}
+.total {
+  color: hsl(243, 100%, 62%);
+}
+.calc h5 {
+  color: hsl(231, 11%, 63%);
+}
+
+/* step 5 */
+.thank-you {
+  width: 400px;
+  margin-left: 80px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 10px;
+  display: none;
+}
+.thank-you h2 {
+  font-weight: bold;
+}
+.thank-you p {
+  color: hsl(231, 11%, 63%);
+}
